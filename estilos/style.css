@@ -57,5 +57,7 @@ box-sizing: border-box;
 }
 /* animação */
 section#redes img:hover{
-    border: 2px solid rgba(0, 0, 0, 0.400);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transform: translate(-3px,-3px);
+    transition: .2s;
 }
