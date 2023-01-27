@@ -19,8 +19,12 @@ a{
     display: block;
     text-align: center;
     color: white;
-    background-color: darkred;
+    background-color: rgb(116, 0, 0);
     padding: 10px;
     font-weight: bold;
     text-decoration: none;
+}
+a:hover{
+    background-color: red;
+    transition: all 0.2s;
 }
